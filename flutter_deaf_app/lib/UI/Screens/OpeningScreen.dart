@@ -10,17 +10,17 @@ class Openingscreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           Padding(
-              padding: const EdgeInsets.only(top: 50, left: 50, right: 50),
+              padding: const EdgeInsets.only(top: 45, left: 50, right: 50),
               child: Image.asset("assets/images/Group 1.png")),
           Container(
             width: double.infinity,
             alignment: Alignment.topLeft,
-            height: 450,
+            height: 445,
             child: Stack(
               clipBehavior: Clip.none,
               children: [
                 Positioned(
-                  bottom: 120,
+                  bottom: 115,
                   child: Image.asset(
                     "assets/images/Ellipse 6.png",
                     fit: BoxFit.cover,
@@ -112,7 +112,7 @@ class Openingscreen extends StatelessWidget {
             child: Image.asset(
               "assets/images/Frame 19.png",
               width: 40,
-              height: 15,
+              height: 12,
             ),
           ),
           const SizedBox(

@@ -14,7 +14,7 @@ class Containers extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 200,
-      height: 210,
+      height: 260,
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(16),
